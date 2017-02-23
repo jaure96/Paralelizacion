@@ -1,0 +1,13 @@
+package p3calculodepiHilosThread;
+
+public class PiCalculator {
+	
+	long inicio;
+	long fin;
+	
+	public PiCalculator(long inicio, long fin){
+		this.inicio = inicio;
+		this.fin = fin;
+	}
+
+}

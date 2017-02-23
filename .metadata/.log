@@ -1,0 +1,191 @@
+!SESSION 2017-02-21 12:02:38.583 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-21 12:03:33.974
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Lazkano'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.yattasolutions.umllab 4 0 2017-02-21 12:03:42.565
+!MESSAGE UML Lab internal error: Error acquiring license.
+!STACK 0
+java.lang.NullPointerException
+	at com.yattasolutions.obf.mv.g.a(SourceFile:585)
+	at ZMIREWO4PLZQC53V2TOHB6LUTCSWHB7HPBXIORM3SEF24ULZSTFU7REEUXWVVVTLKCF2TWNJO4JMRDN3EMVIE2OATWZBXIKJLWMRLQ7G6HX775TS5ETTOPQTPWZYOOLI4WUWNSPBFCQ2QLTCVRY7TJLPI7BMWBCJPB2LEIASL2ZGNTWC73QMS6CUKHEEZNK4ORJU4EBF3J577TXCQMEKJ5DLQ632YZ7SKOMGAVGA2OYH2E7COJ3DQ6FFU3JOSS54GUXZ5GDVO6X3BT7FRE4KA3OSBUYL6GFZULCABJPA35UOEWAL7LKOOU2YOJJWOM6BPE3SR5U36ZBCJNZTGD5GUVSKEMG2DDY5AJFLWF3EPNB77T63NVIYO6IP5FOULZEVHKUJ73WVDTL3RKXUWOBTFYG5VEOA5AW35COZLULTYCCTYHCYRXI7ZCK7CQSQJZQBQJNFEQOF6NHODWGYJVAODAJQY6JCNPGOWDDHCUIJM4ZKJEIOW5CUWPZS77WPVDAAKK7CDSZVWTK7LZV5LUTEXFRIIZEUHLJVQHBX4342RWKQNAGQEATKLE2B5XWMBWKZOP352NPVVHNVRLCW7JL2N73XOOWLAVNSKDYD2SF3HM375K2R2PKWUK4GUC3EPFSW7O5NKQS3QQTMW7RSILO4SCZSDMQ5ZSXFXDIBISHMPKZCYOGAWHTDPFY43YE6BJISKB6YKJJ7BWIUZT4OLSTQFJGFEKX563MZM73RIGQOXPLB7MLT7LDIJC6ZL6UUTEW773XGRKVTNDAKHKDHHVSIJG7NKRSD4A5AYDCJBUX26A56IGE54S257JS3QBUZT3SINM3HO567GXM7WUKRXHLBZFENKWHG3XYUNTHQIQCGK6NZ4IMMBESV7CA7EZLB5R62GBQNZF53KC534YVAYJGYAGCMV5MZASH6C56PMEV3L47MJY3NNUGVPTGQTZLHCWLH3Q4RELG4VQT75V4B4C7JLIG6OYSVZXMVXQEX5GP3O3WMIA2TAKZWTL4RCAKTJCF3RRMGHTXK7P5HI6BHEDNFMHKW5V5OK3GYHUIJTIM3LASLNDVH4UEUWLGUNZ7OKFDCMB74QUUIOFTZWQFPDAP3TPY7Q4DHZLVNDE7NU6B/YZJWBMB53J4WM6SLFG7MCPO52D.<unknown>(Unknown Source)
+
+!ENTRY org.eclipse.ui 4 0 2017-02-21 12:03:42.660
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4203)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3819)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+Caused by: java.lang.NullPointerException
+	at com.yattasolutions.obf.mv.g.a(SourceFile:585)
+	at com.yattasolutions.obf.mv.g.a(SourceFile:504)
+	at com.yattasolutions.obf.mv.g.a(SourceFile:604)
+	at com.yattasolutions.obf.mv.g.a(SourceFile:352)
+	at com.yattasolutions.obf.og.b$1.run(SourceFile:50)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	... 23 more
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2017-02-21 12:03:54.481
+!MESSAGE Setup tasks were performed during startup updating 301 preferences. See 'C:\Users\Lazkano\.eclipse\org.eclipse.platform_4.6.1_248562372_win32_win32_x86_64\configuration\org.eclipse.oomph.setup\setup.log' for details
+!SESSION 2017-02-21 12:13:41.235 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-21 12:13:57.127
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Lazkano'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2017-02-21 12:14:05.749
+!MESSAGE Setup tasks were performed during startup updating 301 preferences. See 'C:\Users\Lazkano\.eclipse\org.eclipse.platform_4.6.1_248562372_win32_win32_x86_64\configuration\org.eclipse.oomph.setup\setup.log' for details
+!SESSION 2017-02-22 11:27:56.258 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-22 11:28:25.627
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Lazkano'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2017-02-22 11:28:40.038
+!MESSAGE Setup tasks were performed during startup updating 301 preferences. See 'C:\Users\Lazkano\.eclipse\org.eclipse.platform_4.6.1_248562372_win32_win32_x86_64\configuration\org.eclipse.oomph.setup\setup.log' for details
+
+!ENTRY com.yattasolutions.umllab.ui 4 0 2017-02-22 11:37:59.843
+!MESSAGE No valid license is available.
+!STACK 0
+com.yattasolutions.obf.kk.g: No license found for UML Lab.
+	at AXMAFUSSLLI3MM3QAP7JKQALSKZASRBKHKDIZGVL2DCMYOW4VU7L7EEVPW2PQIR4TUCLQXGWUQHMILXSDNLLQCHEVDIOUG67G5Q3HLMY6ALWN457HKK7KIGERRZLDPQB5MBN4IKB2R5OXNQDRIJ77OQYQ5RL64HS7BXSID5QQ5YIKQ3KN4SEPEDRX5JYJP54RKZAAUYGCS5G7DXSDLBII4XCYKTYOBGZR2JHPY4X3H4PNQNQM3EX7M44P3VFH7BCEVWLKVZXQ64N4Y3OSNT7V62JVA35OOC6EKUC7XVDE2EGDFBGYK343S4FYIJ75LCZNSGLEWIRXGSRZN4PJUK473BALXI66F2ICUTAPNSPTHWBN7OLH5OX4H2UFXVJOMNFCUW6ZD5VLO2TFADLV6YH6TVU6P3JGBA6IQYX4EPAXJEJB6ZDJ3VRI6X2ZNNWLZALEKN64ZNXHQLTZFMZJROJ4P2G746DKIFWUOJY2M7TGJFEXJLP2YJ5H6FX34O5KAYF5I56C252CQ5KMTOS6EUZQP2LT2VCIJB2VIYCI5MA2MIT2554KYKNHPKYLU7NEITTDNEUO6BIE7NPZYSYBVKWL757BRTDPOEXLMGY7TW5SHOGLAGHDRG7VFWKWRPW7Y75GKHGORAITTXDS7ZTCTTHN7R4LQZ5Z7CUV6IUONY5OB5A4Z7PVBAJHEKTCILPGZE3B55TSKUM6CN3VIPVDHTMCIYKMUDOOPYK3DWIWK7IR623247UUZHWNJJGJWPDRFNN6WGYKUEV7YHVNNK5J6R43HVXZW3WFDTZBY6GCDSE5T6EDZ3QKCOZV3OAY7Q6TXMUR7Q2OP4RZHGKADI24PJQEAWND5ICOE4FFGP2QRO3MJ7X6J5V3EF27UWSGY4QRMXNAGGRLBLZHRZYU5XIJCCEPJXB67FPQBSGVKVF2QLJCNQBJCLB4NTS6IIFKHKKL2OLE7MMR666KHNYEKAYRF3H6JJ2HAKMWW64ZDPLTLELJ66CWMTSAFN54V6UDBQLXXVLGZLFPLN537HL3GURF6M4GFZC4WKMYCX6FNMMZHP7RWGD4ASN52JCAY2MZ5X7ZYB7S7TE4OBIFEC5VY44IJLJMUGNSQHIXEOA4UBE2XCTTWZQD5HMHTJ33Y7VEE7FGPX535SWLD5SY57QM6J32JCBMRVFRLGGGIT4OHMRPBC3V2MH6CETOEE2DKBYRCMEIBJNMGWIIWEXAYMVM6UCOOWR3BDQ3VNSRHAIN2ZBTRI7UXQK5WW5BI7SDTHBID6WZY2XBHH2632YQHER7UDMFUYZZBTZP5INJ4ZYXYI2DDL77IKLSRNRHFVKQJSDC4WV5FQ3I424CPIEY2KQ3ECQGS4PO4RMG5ZZXM5JLVX4VUKBA33GHFWGIUIXKI4OXQY47XM7QLQMVQ2BJSJ32OIKSF63D6WY7KXEFSFEJ6MGYE2V6GAJZF56674CCBNPAPZ76WFH37U2ZQEVUIC4SSW76XJKK6KJMR32P3BJ32BOMUBQCTDDKINZPOAZF2XA6H5LWLLRQW6OYEVQ27FNALQKRJGDSJ63UTDRCVYPIK2DD3YMB7ROH6NVY3NOK32HF677A7YYOPYWXWSB63BIN4OHKAGKCLPLEKJU65WG7NHYMDFQCJBNVS7QDIKXWYZIG3374KRJVC4CEJEFQDGOMW4URPNBSAXLKN3ZJQBKYRVOSVFP563B45JXAENLZSTH5PPPQPUYJ6TMJNJK6X4XL76YRMF6IRSX3M7667S54CPFWSJZ2CAN6HGBPBX7WV5GJYKEQVIL4MOBJWCU6WRM32H2FUHSLF4C2VUN5CAL7SOQZFU4WU3PPRHOHDFSTUKTPNLEDQIRBKFUPTMMODTQ44ICWTMIS6WY2WZN5FVYPDBZTXALEXPNODPHWSUKBF4QYVC464KDNK6N5JXPZ5H222PTCX4NIZU5ZODDH3R2A6GMTOQGLQWAE7TH67HSL7KMFAVUNRL7QYFT34H6DOLZBRRC7BTP4OJZ2IQG7IQKUI2SEZL5FKTAB6KJ5555M4XWLBYF5MWBFSZ53WKRVAXLHH6MT3CURMY7PXPS2IJQ7NF4SPUGC3XRF3VFWBFCHFYWHFI2X6TML5GIK3KR7S3I562K5BZU6NOYKUDDKAQXFU3FOJE6Z5ET4HI2ON5ETOECKGQKYVKZLR6PCVJDTIV7X5CDJ5XNQTXAWEC5JZMYIJ4ST74IFZQ3FWYZUNOQE4X4GSV6B2SZVZZPUFUDDHPPZUNCOLNLXBFRSGWBYOHVVWOPGVSLL6KRD26L3TC3ENPNOQN2JQDW43A4HIIC47BHDD7MIH5WCN446A6OFMLWZUZGPQWU7JGXLJEONJTXVWRD22FOHEHLOFJBWBSJLEMUPUW7KRGGAJTCOPU5LIZRAFDP3KHWCM67OTO6TLNNASLFHBDFGME65RUASTG74HTJNPDDODFW2HRVRX3C7LKV4T4QQDCA26B2LBAFT5UTTHLQ34NJHJMNDL7LXC5AOGSO2PPDWSVLJEDOT7253QY4SYCWENU6NJGXPKKVL2YGCMRTG6OZ457RVO5JSRED4YEUZ4N3AXJUFLPCOLDFECWE4GI6XXNTJASR7PIYAGQ4THIWNXEZDB3HWJMXOXUZU35QYGJLRHQQW4PN3DGEORL4D4AMVQ767PFJHZ4RXSLQQTGAQS3Z5ESUTCHUDJBI6TD6DBKALMUIGDE4YYNOALF5QBWLJSE3UJK7EP4FJXNZ7KQLOJAAQO3IBHKGYI2R7CF43TLK3PODP7YDQTSLDAY7M2K6XVO77HIOHWIXDVKSIGG4WNZIIALQP2JE5WKYYF72UTJJCDXJI5KMLYNYWNFARSXZ3BYLWRUUQIGPCRB6FWLVCU7GNRTTRXMMMYLF3WKNWF7MEYLJASPLX5XYX2KBMKXDR5DC4NIV57ABQV2EJ4B73GYG5NTLHCJU3GEBIFY2VAZDOPCXJRC7IUAYRKNRWHWMCBYUCX444P2H7OOA/VSIEVGZOL4DPW4VOWEE4K24GDF.<unknown>(Unknown Source)
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-22 12:23:20.312
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-22 12:23:20.314
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-22 12:23:20.449
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-22 12:23:20.449
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+!SESSION 2017-02-22 14:37:03.242 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-22 14:39:35.523
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Lazkano'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2017-02-22 14:39:41.400
+!MESSAGE Setup tasks were performed during startup updating 301 preferences. See 'C:\Users\Lazkano\.eclipse\org.eclipse.platform_4.6.1_248562372_win32_win32_x86_64\configuration\org.eclipse.oomph.setup\setup.log' for details
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-22 14:43:38.661
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-22 14:43:38.662
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-22 14:49:21.201
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-22 14:49:21.202
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY com.yattasolutions.umllab.ui 4 0 2017-02-22 15:24:45.776
+!MESSAGE No valid license is available.
+!STACK 0
+com.yattasolutions.obf.kk.g: No license found for UML Lab.
+	at BGMOWD7QZN5JHCHN356D32C34CRDKP6BVNFSLFBCDO7IIINUZOA76Q6HT4427GQAMN3YYKTHOYHINEA2JVMVZIAVJ2WNIAPS72YT6XCI75N2JS7X4OI3JJFJU3RDPOFKWZ6EEKPIOTYFQOZ7FUGVUB7WMAYNI3C4SZYYBJ7SNDBKMDSIGSABWFXBWM5QMXDFVJXYW35NXHRZGDEVHHSYRKQN2WSQ5BMYSUAJ7XKISKNMI7S426A2QYDGERTCCDYLQ66E7EY4SSKEHW6RNEPY2GH2TESCKXTL4WT72M7MXUKZY6CHGYFJRBZADUEZLEGTWGZAJRBXMJ7WQ4T3TERHRTIUSKKIP4BUUPG32IFXRTZDLKZPVTGRZJAJBOGFXAELXCSHREJQU7SEX2PAZKYMMOZ6EIHDTCXKUI57PMDLXJRULIQUFROU5GPGIEZVVPWJNZ4QHJQF7M4JYDLKZNQDUIRUZOXNSAMKTTOMCXJSQMIJCKIP3SNT2KNVHLEPGA6NG2ZBTHD2WVZWSVCAZRDIR3V7TOY33JK3VONXNILWYV3RAWQDWHQ4MCTMNHKCD56E3BUPIM2NWUHFBXGVLQL4XLQLMP2V5FALVGTGT5IEWFZELWQRDBBRCXWGAFMUH324NME36T27MEUZR2PVHLATSGDBEWS6QCDS4XUBT7IW2ZWBPDNHT6GY4KLHLBUB4EE76JQANWQ3SO7YSV2EEENMGHQJG6UIK3EX4T52LHBA5R3OEAISETTIJJ6HL6Q6WBH5A6R267H6DLGBSHLAUYQGV7VOPWVTB4YOUAQEQ7J24NG5BA7IT7B4PIKBHVON56YHP4OA7H3DFWXJFSB5KVLHU2JE3CE65BAOMJ73JNKSVIXBJBYFWKCNWNUQKK763OEBV3KDKT2YNHHRN7PE3BDGQ6X3ONNAZWQTFI35BY246FGIOR34XZYSCAMLG2W66ADREPF2SRXGGR7KQBKCEMPQ4PJECXAQS6IBIDRR2IDTZH3YLNGS7373PQXN3SNSK7D53WGKSAY23PE7TFT73WW2IW45JZ5GTLKJHD54QXRD6R64ZNDACJWEVNJXHOZA56NFU4TMSJLPO7GE3HVF5J62SQ53FUVQO4VC3G3YXD662QWJXZL5H3JP56T7NQ5QRNW5WF57OPBHGESQNQAFJ7JAMJKGWCWKISO5GWDV3UYTZPZRCSGWACJZTWSYGSICSAU5X5RFQ7T5CIHVHFXONTRS3QYE3L72QWKYDLLZTEXQGPPJMGJ36RHONERSD2ED6C6ETGEHM4S3PSWVTIUKXKRLWNWFVUS5SMTFONFGWPD4NOVGKWCPDVDOPWHYBAHMXXFXRC4K6JUNABMHYPZKKTCW5XIBRHMFB4SVBUZ2L5VAX2DIK47UHBEVNJOQ3RWQTYHGABYNZUJJRGATSLZ7VBEPCDH3TOVIS7323TSA36L72PYXGHOIG2YJEBHINFD3Z55SUMYKK5C5QAB4SQYJOI6CG6ICSES3QXCDLACF24Y4CSUCKO3QG6KHZ7QDPNVJLDKY2F24S4LFNGGHCVKWZK4FMOB2BTTD3LO5WZVKMLKWE4TXMFJIEXNVFXVBQ3QPRYOTH46OUSA4PPAEM7WCETMT5XXH2JIJDRRPC2YQ4NKXTBDH7XNHHFM53QJ5FGVAK3OMD4BUHF25WLFS3QICJB3JZ52GR23GGKP7BWFVOFGN7A6QYK53O5CLQHU62ZRE5HTO4ECYUT3WULFA5PT43OUZZEZHXDK43KOSQV45EPSE3BCGE2SIBOGHJ5NZF4654HQVRWW7KOOK7HA7IPJU2JOCQCIZOG2DM2DUUNUXCFJMXTOFPDXBGYZPZMSDSIQGIJ6ZOMSIFTYJB6JVJGMFSW2NDHAU7E6QGTHG5XMGUA4RQ4AFC6OJAEBHSAK3CLZRDPCICF6FWAVH4HCA2XW4QOKVSZ3MV5X4WS5Q633Q2J7AX6QVJMTGMDT37SR4Z5CJGCQNIFDWXQI2S5BMVXAU3F4NDDAS4T4KEAHKHR3H7HB6HZE3H6TD6DV3UIIBJKIYTIRD5ZBZSUPKIKEJ3AIXRGASFD7U7WRNDES3H4BTQG3QRSJYUZ6ZDEG7KHIO57VTFPO6NPY3DCDA42Y7LVBDTF2WK3FT7ANWJOF6GLZ5MHGDIDPQB7LDLUB6PZQZHCFQVSFCBX5YTS3YN4R2ENIMZKD4PW34JXIELYZO4V54URRDDAXXY2ZN6TBMBBABQ2KVDX2I7LA7ETXLMVOPN6PRK6PXS3EANQMLBIHACMTSYHLP5RRTIKMPBJZGBYQVS3HTGYMXLTKOZS5FX23NW63Q3PRUCIKI4XTD3CN6OO4FV2MPRTZH6AK2V7I67MG7SIBOESYJ67Z2UDGP5XDLZPO6ZGSPQMX5NYKP467TSJK2OLQZLATWDKKBHCFIKJGVWO5TECOVJS765DFSDURIDIYZ4KU37OCWB52D54Z5XFLUSXW5N7S234FBSXGKC532N5NXQ5OQF4HJ4ZJHRSCCZB2E54KGZKBZNLO22LDWWWE4CRS53UG64IQOD5C4ONKSXJ3TDGIP26COIEDCSU2VOKVSKZNTJJW44XP2FC54O4CWJ7TMYMK763UJJOOBDSJUZSRGCLSN6FAYO2K2QW6NIJTTDBTUO5TMKRDHXHX4RPDXNOVWZZ3IB6V3V3I3ZJBTLPFNZGQUFSHAPDULRHS3NBU7CHQAJU7UIN7YWZZVEE6O6GBYNFCXQN23P3FNYXO656OGAQWGYIKAWBO555FGJZQ6ZPZXWR3IRQU6TWRQ7LQSLPNWUHOMTZLPKY3HC4IAEOFXGIRTWCSDJSBQTMAAXA7LGGN244R6SAUB4FI4W2NAFBOFPDHPFC25QHTSZISVZ24VTYKIGMBI3BAVG3KA52IY3EIF5V245Z6BLEZCJJYPSUE5VS7OWW2GJ7GGHMLSAWKCSKU67JPDMEHUNEZQYT6AWD2OLB7XHLLCUT3PR5JF3HKF3CA6R67ACHF7EN7UMVXNVPXW6BPVGGFQMFN45MZUHHGLVEVNAAX4WIYMMKCRYLGJRXGWX3XNE6SEK7ZT4XOEEL2PTCIK22RSMK65ZZDPW4E5APBA4E/RRUXCWHLR6UT6CH3J2B6GOVBQA.<unknown>(Unknown Source)
+!SESSION 2017-02-23 07:49:57.339 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-23 07:50:17.046
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Lazkano'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2017-02-23 07:50:24.292
+!MESSAGE Setup tasks were performed during startup updating 301 preferences. See 'C:\Users\Lazkano\.eclipse\org.eclipse.platform_4.6.1_248562372_win32_win32_x86_64\configuration\org.eclipse.oomph.setup\setup.log' for details
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-23 08:19:34.646
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-23 08:19:34.647
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-23 11:19:25.758
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-23 11:19:25.774
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+!SESSION 2017-02-23 13:43:04.897 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-23 13:43:34.436
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Lazkano'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2017-02-23 13:43:51.247
+!MESSAGE Setup tasks were performed during startup updating 301 preferences. See 'C:\Users\Lazkano\.eclipse\org.eclipse.platform_4.6.1_248562372_win32_win32_x86_64\configuration\org.eclipse.oomph.setup\setup.log' for details

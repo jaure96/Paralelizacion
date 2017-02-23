@@ -1,0 +1,30 @@
+package p3calculodepiHilos;
+
+import java.util.concurrent.CompletionService;
+import java.util.concurrent.ExecutorCompletionService;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class Main {
+	
+	final int NUMHILOS = Runtime.getRuntime().availableProcessors();
+	
+	ExecutorService executor;
+	CompletionService<Integer> completionService;
+	
+	public Main(){
+		executor = Executors.newFixedThreadPool(NUMHILOS);
+		completionService = new ExecutorCompletionService<Integer>(executor);
+	}
+
+	
+	
+	
+	public static void main(String[] args) {
+		Main main = new Main();
+		for (int i= 2; i<LIMITE; i++){
+			completionService.submit(new PrimoTask(i));
+			
+		}
+	}
+}

@@ -1,0 +1,33 @@
+package p3calculodepiHilosForkJoin;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.RecursiveTask;
+
+
+public class PiCanculator extends RecursiveTask<Double>{
+	
+	double anchuraIntervalo;
+	long inicio;
+	long fin;
+	
+	public PiCanculator(double anchuraIntervalo, long inicio, long fin){
+		this.anchuraIntervalo = anchuraIntervalo;
+		this.inicio = inicio;
+		this.fin = fin;	
+	}
+	@Override
+	protected Double compute() {
+		List<RecursiveTask<Long>> tareas = new ArrayList<>();
+
+		while(fin <= Main.NUMINTERVALOS){
+//			main.completionService.submit(new PiCanculator(main.anchuraIntervalo, inicio, fin));
+			RecursiveTask<Double> nuevaTarea = new PiCanculator(anchuraIntervalo, inicio, fin);
+			inicio += taskAmounts;
+			fin += taskAmounts;
+		}
+		return null;		
+	}
+
+	
+}

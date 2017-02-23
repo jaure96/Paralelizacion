@@ -1,0 +1,37 @@
+package p3calculodepiHilos;
+
+import java.util.concurrent.CompletionService;
+import java.util.concurrent.ExecutorCompletionService;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class Main {
+		
+	ExecutorService executor;
+	CompletionService<Double> completionService;
+	final static double REFERENCIAPI = 3.14159265358979323846;
+	long numIntervalos;
+	double valorPi;
+	double anchuraIntervalo;
+	
+	public Main(long numIntervalos){
+		this.numIntervalos = numIntervalos;
+		anchuraIntervalo = 1.0/numIntervalos;
+		executor = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
+		completionService = new ExecutorCompletionService<Double>(executor);
+	}
+
+	
+	
+	
+	public static void main(String[] args) {
+		long inicio,fin;
+		Main main = new Main(100000000000L);
+		long taskAmounts = main.numIntervalos/Runtime.getRuntime().availableProcessors();
+		inicio = 0;
+		fin = taskAmounts;
+		while(fin<main.numIntervalos){
+			main.completionService.submit(new PiCanculator(main.anchuraIntervalo, inicio, fin));
+		}
+	}
+}

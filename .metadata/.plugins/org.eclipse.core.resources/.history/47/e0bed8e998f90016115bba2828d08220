@@ -1,0 +1,21 @@
+package p3calculodepiHilosForkJoin;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.RecursiveTask;
+
+public class PiCanculator extends RecursiveTask<Double>{
+	
+	File ficheroInicial;
+	
+	public PiCanculator(File f){
+		this.ficheroInicial = f;
+	}
+	@Override
+	protected Double compute() {
+		
+	}
+
+	
+}

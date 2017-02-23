@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.concurrent.Callable"/>
+<fullyQualifiedTypeName name="p3calculodepiHilos.Main"/>
+<fullyQualifiedTypeName name="p3calculodepiHilos.PiCanculator"/>
+<fullyQualifiedTypeName name="java.util.concurrent.RecursiveTask"/>
+<fullyQualifiedTypeName name="p3calculodepiHilosForkJoin.PiCanculator"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="java.util.concurrent.locks.Lock"/>
+<fullyQualifiedTypeName name="java.util.concurrent.locks.ReentrantLock"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="p3calculodepiHilosThread.Main"/>
+<fullyQualifiedTypeName name="p3calculodepi.CalculadorPi"/>
+<fullyQualifiedTypeName name="p3calculodepiHilosThread.PiCalculator"/>
+<fullyQualifiedTypeName name="java.lang.Double"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,15 @@
+package p3calculodepiHilos;
+
+public class CalculadorPiHilos {
+	final static double REFERENCIAPI = 3.14159265358979323846;
+	private long numIntervalos;
+	private double valorPi;
+	private double anchuraIntervalo;
+	
+	public CalculadorPiHilos(long numIntervalos,){
+		this.numIntervalos = numIntervalos;
+		anchuraIntervalo = 1.0/numIntervalos;
+	}
+	
+	
+}

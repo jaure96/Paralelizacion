@@ -1,0 +1,21 @@
+package p3calculodepiHilosThread;
+
+import java.util.ArrayList;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
+public class Main {
+	
+	Lock lock;
+	ArrayList<Double> listaResultados;
+	
+	public Main(){
+		this.lock = new ReentrantLock();
+		listaResultados = new ArrayList<Double>();
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}
