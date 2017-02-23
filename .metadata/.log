@@ -189,3 +189,9 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.oomph.setup.ui 1 0 2017-02-23 13:43:51.247
 !MESSAGE Setup tasks were performed during startup updating 301 preferences. See 'C:\Users\Lazkano\.eclipse\org.eclipse.platform_4.6.1_248562372_win32_win32_x86_64\configuration\org.eclipse.oomph.setup\setup.log' for details
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-23 14:08:17.518
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-23 14:08:17.519
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
