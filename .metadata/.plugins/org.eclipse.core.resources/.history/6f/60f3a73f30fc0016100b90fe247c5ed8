@@ -2,8 +2,8 @@ package p1multiplicacionmatrices;
 
 public class Principal {
 	
-	final int DIMENSIONX = 1000;
-	final int DIMENSIONY = 1000;
+	final int DIMENSIONX = 100;
+	final int DIMENSIONY = 100;
 	int matrizA[][];
 	int matrizB[][];
 	long resultado[][];

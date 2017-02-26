@@ -1,0 +1,18 @@
+package p2calculonumerosprimosHilosExecutor;
+
+import java.util.concurrent.CompletionService;
+import java.util.concurrent.ExecutorService;
+
+public class Main {
+
+	ExecutorService executor;
+	CompletionService<Double> completionService;
+	
+	
+	
+	
+	
+	public static void main(String[] args){
+		
+	}
+}
