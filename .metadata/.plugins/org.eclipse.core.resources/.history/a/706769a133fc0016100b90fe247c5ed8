@@ -22,7 +22,7 @@ public class CalculadorPi {
 		return valorPi;
 	}
 	public static void main (String args[]){
-		CalculadorPi programa = new CalculadorPi(10000000000L);
+		CalculadorPi programa = new CalculadorPi(10000000);
 		long inicio = System.currentTimeMillis();
 		double pi = programa.calcularPi();
 		long fin = System.currentTimeMillis();

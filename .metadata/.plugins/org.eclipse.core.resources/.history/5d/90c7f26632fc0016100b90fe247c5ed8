@@ -42,7 +42,7 @@ public class BuscadorNumerosPrimos {
 	public static void main(String[] args) {
 		BuscadorNumerosPrimos programa = new BuscadorNumerosPrimos();
 		long inicio = System.currentTimeMillis();
-		programa.buscarNumerosPrimos(100000);
+		programa.buscarNumerosPrimos(1000);
 		long fin = System.currentTimeMillis();
 		
 		programa.mostrarResultados(false);
