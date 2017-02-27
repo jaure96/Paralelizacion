@@ -22,7 +22,7 @@ public class Main {
 		valorPi = 0;
 		this.numIntervalos = numIntervalos;
 		anchuraIntervalo = 1.0/numIntervalos;
-		executor = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
+		executor = Executors.newFixedThreadPool(6);
 		completionService = new ExecutorCompletionService<Double>(executor);
 	}
 
@@ -31,8 +31,8 @@ public class Main {
 	
 	public static void main(String[] args) {
 		long inicio,fin, kont;
-		Main main = new Main(10000000000L);
-		long taskAmounts = main.numIntervalos/Runtime.getRuntime().availableProcessors();
+		Main main = new Main(1000000);
+		long taskAmounts = main.numIntervalos/6;
 		kont=0;
 		inicio = 0;
 		fin = taskAmounts;

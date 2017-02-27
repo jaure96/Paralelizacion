@@ -2,8 +2,8 @@ package p1multiplicacionmatricesHilosRunnable;
 
 public class Principal {
 
-	static final int DIMENSIONX = 3000;
-	static final int DIMENSIONY = 3000;
+	static final int DIMENSIONX = 500;
+	static final int DIMENSIONY = 500;
 	static int matrizA[][];
 	static int matrizB[][];
 	static long resultado[][];
@@ -54,9 +54,9 @@ public class Principal {
 	public static void main(String[] args) {
 		Principal programa = new Principal();
 		HiloMultiplicador hiloMultiplicador;
-		int indexStart = DIMENSIONY / Runtime.getRuntime().availableProcessors();
+		int indexStart = DIMENSIONY / 6;
 		int i = 0;
-		for (int j = 0; j < Runtime.getRuntime().availableProcessors(); j++) {
+		for (int j = 0; j < 6; j++) {
 			hiloMultiplicador = new HiloMultiplicador(matrizA, matrizB, resultado, multiplicador, indexStart * i, indexStart * (1 + i));
 			Thread th = new Thread(hiloMultiplicador);
 			threads[i] = th;
@@ -66,7 +66,7 @@ public class Principal {
 
 		long instanteInicial = System.currentTimeMillis();
 		try {
-			for (int j = 0; j < Runtime.getRuntime().availableProcessors(); j++) {
+			for (int j = 0; j < 6; j++) {
 				threads[i].join();
 
 			}

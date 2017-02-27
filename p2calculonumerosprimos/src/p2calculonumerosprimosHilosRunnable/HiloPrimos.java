@@ -2,9 +2,6 @@ package p2calculonumerosprimosHilosRunnable;
 
 import java.util.ArrayList;
 
-/**
- * Created by joanes on 2/15/17.
- */
 public class HiloPrimos implements Runnable {
 
 	private Integer indexStart;

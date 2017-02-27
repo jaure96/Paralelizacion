@@ -19,26 +19,26 @@ public class Main {
 		this.listaResultados = new ArrayList<Double>();
 		this.numIntervalos = numIntervalos;
 		this.anchuraIntervalo = 1.0/numIntervalos;
-		this.taskAmount = numIntervalos/Runtime.getRuntime().availableProcessors();
+		this.taskAmount = numIntervalos/2;
 	}
 
 	public static void main(String[] args) {
-		Main main = new Main(10000000000L);
+		Main main = new Main(100000000);
 		double valorPi = 0;
 		long inicio=0;
 		long fin=main.taskAmount;
-		Thread []myThreadList = new Thread[Runtime.getRuntime().availableProcessors()];	
+		Thread []myThreadList = new Thread[2];	
 		
 		long tiempoInicio = System.currentTimeMillis();
 		
-		for(int kont=0; kont<Runtime.getRuntime().availableProcessors(); kont++){
+		for(int kont=0; kont<2; kont++){
 			myThreadList[kont]= new PiCalculator(inicio, fin, main.anchuraIntervalo, main.lock, main.listaResultados);
 			myThreadList[kont].start();
 			inicio += main.taskAmount;
 			fin +=main.taskAmount;
 		}
 		
-		for(int kont=0; kont<Runtime.getRuntime().availableProcessors(); kont++){
+		for(int kont=0; kont<2; kont++){
 			try {
 				myThreadList[kont].join();
 			} catch (InterruptedException e) {

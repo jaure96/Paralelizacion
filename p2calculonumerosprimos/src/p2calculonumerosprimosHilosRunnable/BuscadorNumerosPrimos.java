@@ -6,7 +6,7 @@ import java.util.List;
 public class BuscadorNumerosPrimos {
 
 	List<Integer> numerosPrimos;
-	final static int NUMBERS = 10000000;
+	final static int NUMBERS = 10000;
 
 	public BuscadorNumerosPrimos() {
 		numerosPrimos = new ArrayList<>();
@@ -56,7 +56,7 @@ public class BuscadorNumerosPrimos {
 
 	public static void main(String[] args) {
 
-		Integer processors = Runtime.getRuntime().availableProcessors();
+		Integer processors = 6;
 		BuscadorNumerosPrimos programa = new BuscadorNumerosPrimos();
 		Thread[] threads = new Thread[processors];
 		for (int i = 0; i < processors; i++) {
