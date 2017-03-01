@@ -1,0 +1,14 @@
+package lock;
+
+public class HiloModifier extends Thread {
+
+	Cuenta cuenta;
+	
+	public HiloModifier(Cuenta cuenta) {
+		cuenta = cuenta;
+	}
+	
+	public void run(){
+		cuenta.sumarValor();
+	}
+}

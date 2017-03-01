@@ -1,0 +1,28 @@
+package lock;
+
+public class Main {
+	
+	public static int SIZE = 10;
+	
+	public static void main(String[] args) {
+		
+		Cuenta cuenta = new Cuenta();
+		
+		Thread []myThreadList = new Thread[SIZE];	
+		
+		for(int kont=0; kont<SIZE; kont++){
+			myThreadList[kont]= new HiloModifier(cuenta);
+			myThreadList[kont].start();
+		}
+		
+		for(int kont=0; kont<SIZE; kont++){
+			try {
+				myThreadList[kont].join();
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+
+	}
+
+}

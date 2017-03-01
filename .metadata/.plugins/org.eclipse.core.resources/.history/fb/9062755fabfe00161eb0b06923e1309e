@@ -1,0 +1,17 @@
+package lock;
+
+public class Cuenta {
+	
+	long valor;
+
+	public long getValor() {
+		return valor;
+	}
+
+	public void setValor(long valor) {
+		this.valor = valor;
+	}
+	
+	
+
+}
