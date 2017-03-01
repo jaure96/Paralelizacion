@@ -56,7 +56,7 @@ public class BuscadorNumerosPrimos {
 
 	public static void main(String[] args) {
 
-		Integer processors = 40;
+		Integer processors = 80;
 		BuscadorNumerosPrimos programa = new BuscadorNumerosPrimos();
 		Thread[] threads = new Thread[processors];
 		for (int i = 0; i < processors; i++) {
