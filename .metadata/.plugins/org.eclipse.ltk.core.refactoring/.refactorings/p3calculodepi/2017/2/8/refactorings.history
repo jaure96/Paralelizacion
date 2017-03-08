@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move package &apos;p3calculodepi&apos; to &apos;p3calculodepiHilos/src&apos;&#x0D;&#x0A;- Original project: &apos;p3calculodepi&apos;&#x0D;&#x0A;- Destination element: &apos;p3calculodepiHilos/src&apos;&#x0D;&#x0A;- Original element: &apos;p3calculodepi/src/p3calculodepi&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=p3calculodepiHilos/src" element1="/src&lt;p3calculodepi" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1487840906167" version="1.0"/>
-</session>
