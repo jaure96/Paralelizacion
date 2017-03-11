@@ -1,17 +1,16 @@
-package p4calculocaminomascorto;
+package p4calculocaminomascortohilosMal;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 
 public class Espacio {
-	final String NOMBREFICHERO = "files/espacio1.txt";
+	final String NOMBREFICHERO = "files/espacio3Muro2.txt";
 	final int VALORORIGEN = 2;
 	final int VALORDESTINO = 3;
-	final int DIMENSION = 80;
+	final int DIMENSION = 150;
 	
 	int espacio [][];
 	Punto origen, destino;
@@ -68,29 +67,29 @@ public class Espacio {
 		}
 	}
 
-	public List<Nodo> getNodosAdyacentes(Nodo nodo) {
-		List<Nodo> adyacentes = new ArrayList<>();
-		Punto punto = nodo.getPunto();
-		int coordenadaX = punto.getCoordenadaX();
-		int coordenadaY = punto.getCoordenadaY();
-		int limiteInferiorX = (coordenadaX==0)?0:coordenadaX-1;
-		int limiteSuperiorX = (coordenadaX==DIMENSION-1)?DIMENSION-1:coordenadaX+1;
-		int limiteInferiorY = (coordenadaY==0)?0:coordenadaY-1;
-		int limiteSuperiorY = (coordenadaY==DIMENSION-1)?DIMENSION-1:coordenadaY+1;
-		
-		for (int i = limiteInferiorX; i<=limiteSuperiorX;i++){
-			for (int j = limiteInferiorY; j<=limiteSuperiorY; j++){
-				if (espacio[i][j]!=1){
-					Punto newPunto = new Punto (i,j);
-					if (!punto.equals(newPunto)){
-						adyacentes.add( new Nodo( newPunto,0, nodo.getRecorrido()+1));
-					}
-				}
-			}
-		}
-		
-		return adyacentes;
-	}
+//	public List<Nodo> getNodosAdyacentes(Nodo nodo) {
+//		List<Nodo> adyacentes = new ArrayList<>();
+//		Punto punto = nodo.getPunto();
+//		int coordenadaX = punto.getCoordenadaX();
+//		int coordenadaY = punto.getCoordenadaY();
+//		int limiteInferiorX = (coordenadaX==0)?0:coordenadaX-1;
+//		int limiteSuperiorX = (coordenadaX==DIMENSION-1)?DIMENSION-1:coordenadaX+1;
+//		int limiteInferiorY = (coordenadaY==0)?0:coordenadaY-1;
+//		int limiteSuperiorY = (coordenadaY==DIMENSION-1)?DIMENSION-1:coordenadaY+1;
+//
+//		for (int i = limiteInferiorX; i<=limiteSuperiorX;i++){
+//			for (int j = limiteInferiorY; j<=limiteSuperiorY; j++){
+//				if (espacio[i][j]!=1){
+//					Punto newPunto = new Punto (i,j);
+//					if (!punto.equals(newPunto)){
+//						adyacentes.add( new Nodo( newPunto,0, nodo.getRecorrido()+1));
+//					}
+//				}
+//			}
+//		}
+//
+//		return adyacentes;
+//	}
 
 	public void verRutaEnEspacio(Ruta ruta) {
 		if (ruta == null){
@@ -105,4 +104,10 @@ public class Espacio {
 		
 		this.verEspacio();
 	}
+
+	public int[][] getEspacio() {
+		return espacio;
+	}
 }
+
+

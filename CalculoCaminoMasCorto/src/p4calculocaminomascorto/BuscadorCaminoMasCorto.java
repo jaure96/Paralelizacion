@@ -26,6 +26,8 @@ public class BuscadorCaminoMasCorto {
 	public Ruta buscarCaminoMasCorto(){
 		while (!listaRutas.vacia()){
 			Ruta ruta = listaRutas.take();
+
+//			System.out.println("Tamaño lista rutas: "+listaRutas.rutas.size());
 			
 			Nodo nodo = ruta.getLastNodo();
 			if (nodo.getPunto().equals(destino)){
