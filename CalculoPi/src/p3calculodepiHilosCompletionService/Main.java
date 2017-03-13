@@ -1,4 +1,4 @@
-package p3calculodepiHilosCallable;
+package p3calculodepiHilosCompletionService;
 
 import java.util.concurrent.CompletionService;
 import java.util.concurrent.ExecutionException;
@@ -22,7 +22,7 @@ public class Main {
 		valorPi = 0;
 		this.numIntervalos = numIntervalos;
 		anchuraIntervalo = 1.0/numIntervalos;
-		executor = Executors.newFixedThreadPool(6);
+		executor = Executors.newFixedThreadPool(100);
 		completionService = new ExecutorCompletionService<Double>(executor);
 	}
 
@@ -31,8 +31,8 @@ public class Main {
 	
 	public static void main(String[] args) {
 		long inicio,fin, kont;
-		Main main = new Main(1000000);
-		long taskAmounts = main.numIntervalos/6;
+		Main main = new Main(10000000000L);
+		long taskAmounts = main.numIntervalos/100;
 		kont=0;
 		inicio = 0;
 		fin = taskAmounts;

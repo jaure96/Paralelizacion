@@ -12,10 +12,10 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 public class Principal extends JFrame implements ActionListener {
-	final int DIMENSIONX = 100;
-	final int DIMENSIONY = 100;
-	final double TEMPERATURAINICIAL = 10.0;
-	final double TEMPERATURAFOCOCALOR = 2000.0;
+	final int DIMENSIONX = 150;
+	final int DIMENSIONY = 150;
+	final double TEMPERATURAINICIAL = 50.0;
+	final double TEMPERATURAFOCOCALOR = 10000.0;
 	final double coeficienteDifusionCalorX = 0.2;
 	final double coeficienteDifusionCalorY = 0.2;
 	final int NUMCICLOS = 100000;
@@ -35,8 +35,8 @@ public class Principal extends JFrame implements ActionListener {
 		this.setContentPane(crearPanelVentana());
 		this.setVisible(true);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
 	}
+
 	private Container crearPanelVentana() {
 		JPanel panel = new JPanel (new BorderLayout(0,10));
 		JButton iniciar = new JButton ("Start");
@@ -85,7 +85,7 @@ public class Principal extends JFrame implements ActionListener {
 					difusor.cambiar();
 				}
 				long fin = System.currentTimeMillis();
-				System.out.println("Tiempo total: "+ (fin-inicio)+"ms");
+				System.out.println("Tiempo total: "+ (fin-inicio)+" ms");
 			}
 			
 		});

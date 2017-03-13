@@ -1,8 +1,6 @@
 package p1multiplicacionmatricesHilosRunnable;
 
-/**
- * Created by joanes on 2/15/17.
- */
+
 public class HiloMultiplicador implements Runnable {
 
 	private int[][] matrizA;
