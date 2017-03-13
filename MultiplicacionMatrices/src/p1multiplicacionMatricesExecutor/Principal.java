@@ -6,8 +6,8 @@ import java.util.concurrent.TimeUnit;
 
 public class Principal {
 
-	static final int DIMENSIONX = 3000;
-	static final int DIMENSIONY = 3000;
+	static final int DIMENSIONX = 500;
+	static final int DIMENSIONY = 500;
 	static int matrizA[][];
 	static int matrizB[][];
 	static long resultado[][];
@@ -55,7 +55,7 @@ public class Principal {
 		@SuppressWarnings("unused")
 		Principal programa = new Principal();
 		long instanteInicial = System.currentTimeMillis();
-		int numProcesadores = Runtime.getRuntime().availableProcessors();
+		int numProcesadores = 6;
 		pool = Executors.newFixedThreadPool(numProcesadores);
 		resultado = new long[DIMENSIONX][DIMENSIONY];
 		
