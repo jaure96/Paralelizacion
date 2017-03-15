@@ -14,15 +14,15 @@ public class Main {
 	CompletionService<ArrayList<Integer>> completionService;
 	
 	public Main(int rangoDeBusqueda){
-		executor = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
+		this.numeroProcesadores = 6;
+		executor = Executors.newFixedThreadPool(this.numeroProcesadores);
 		completionService = new ExecutorCompletionService<ArrayList<Integer>>(executor);
 		this.rangoDeBusqueda = rangoDeBusqueda;
-		this.numeroProcesadores = Runtime.getRuntime().availableProcessors();
 		this.bloques = rangoDeBusqueda/numeroProcesadores;
 	}
 		
 	public static void main(String[] args){
-		Main myMain = new Main(10000000);
+		Main myMain = new Main(100000000);
 		int inicio = 0;
 		int fin = myMain.bloques;
 		int encontrados = 0;	

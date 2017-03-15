@@ -16,7 +16,7 @@ public class MiPanel extends JPanel implements Observer {
     BufferedImage image;
     Malla malla;
     BufferedImage colores;
-    int numThreads = Runtime.getRuntime().availableProcessors();
+    int numThreads = 50;
     CompletionService<FragmentoImagen> fiCompletionSrv =
             new ExecutorCompletionService<>(Executors.newFixedThreadPool(numThreads));
 
