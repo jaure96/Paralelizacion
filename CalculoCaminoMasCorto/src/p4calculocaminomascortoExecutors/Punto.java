@@ -1,4 +1,5 @@
-package p4calculocaminomascortoThread;
+package p4calculocaminomascortoExecutors;
+
 
 public class Punto {
   int coordenadaX;

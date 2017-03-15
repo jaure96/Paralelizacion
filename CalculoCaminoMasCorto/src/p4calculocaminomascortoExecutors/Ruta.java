@@ -1,4 +1,4 @@
-package p4calculocaminomascortoThread;
+package p4calculocaminomascortoExecutors;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,7 @@ public class Ruta {
 	List<Nodo> ruta;
 	int distancia;
 	int recorrido;
-
+	
 	public Ruta(Punto origen,int distancia, int recorrido) {
 		ruta = new ArrayList<>();
 		ruta.add(new Nodo(origen,distancia,recorrido));
@@ -18,7 +18,7 @@ public class Ruta {
 		this.ruta = new ArrayList<>();
 		this.ruta.addAll(ruta.ruta);
 	}
-
+	
 	public int getDistancia() {
 		return distancia;
 	}
@@ -26,12 +26,12 @@ public class Ruta {
 		return recorrido;
 	}
 	public Nodo getLastNodo() {
-
+		
 		return ruta.get(ruta.size()-1);
 	}
 
 	public boolean contiene(Nodo nodo) {
-
+		
 		return ruta.contains(nodo);
 	}
 	public void add(Nodo nodo) {
