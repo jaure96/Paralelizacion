@@ -1,4 +1,4 @@
-package p6difusioncalormallaExecutor;
+package p6difusioncalormallaCompletionService_Ander;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +12,7 @@ public class DifusorCalor extends Observable {
     double coeficienteDifusionY;
     Malla mallaInicial, nuevaMalla;
     List<PuntoCalor> focosCalor;
-    CompletionService<FragmentoMalla> pool_difusion = new ExecutorCompletionService<>(Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors()));
+    CompletionService<FragmentoMalla> pool_difusion = new ExecutorCompletionService<>(Executors.newFixedThreadPool(50));
 
     public DifusorCalor(double cfX, double cfY, Malla malla, List<PuntoCalor> focosCalor) {
         secuencia = new ArrayList<>();

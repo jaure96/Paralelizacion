@@ -10,7 +10,7 @@ public class Principal {
     public Principal() {
         espacio = new Espacio();
         espacio.setOrigen(new Punto(0, 0));
-        espacio.setDestino(new Punto(79, 79));
+        espacio.setDestino(new Punto(149, 149));
         //espacio.verEspacio();
         buscador = new BuscadorCaminoMasCorto(espacio);
     }

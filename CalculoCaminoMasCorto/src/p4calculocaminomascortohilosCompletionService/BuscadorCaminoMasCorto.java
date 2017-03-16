@@ -1,7 +1,6 @@
 
 package p4calculocaminomascortohilosCompletionService;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.*;
@@ -22,7 +21,7 @@ public class BuscadorCaminoMasCorto {
         this.origen = espacio.getOrigen();
         this.destino = espacio.getDestino();
 
-        executor = Executors.newFixedThreadPool(4);
+        executor = Executors.newFixedThreadPool(6);
         completionService = new ExecutorCompletionService<>(executor);
 
         listaRutas.add(new Ruta(origen, this.manhattan(origen, destino), 0));
@@ -74,17 +73,6 @@ public class BuscadorCaminoMasCorto {
                     e.printStackTrace();
                 }
             }
-
-//            for (Nodo n : adyacentes) {
-//                n.setDistancia(this.manhattan(n.getPunto(), destino));
-//            }
-//            listaRutas.addRutas(ruta, adyacentes);
-
-//            Ruta r = new Ruta();
-//            for (Nodo n: adyacentes){
-//                r.add(n);
-//            }
-//            listaRutas.add(r);
         }
         executor.shutdown();
         return rutaMasCorta;
