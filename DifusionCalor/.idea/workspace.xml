@@ -2,41 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84d105b7-f6f8-4ced-a638-af585eb16278" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/p6difusioncalomallaCompletionservice/Borrar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/p6difusioncalomallaCompletionservice/DifusorCalor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/p6difusioncalomallaCompletionservice/HiloDifusor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/p6difusioncalomallaCompletionservice/Malla.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/p6difusioncalomallaCompletionservice/MiPanel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/p6difusioncalomallaCompletionservice/Principal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/p6difusioncalomallaCompletionservice/PuntoCalor.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DifusionCalor/p6difusioncalormallaExecutor/Borrar.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DifusionCalor/p6difusioncalormallaExecutor/DifusorCalor$difusorFragmento.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DifusionCalor/p6difusioncalormallaExecutor/DifusorCalor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DifusionCalor/p6difusioncalormallaExecutor/FragmentoImagen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DifusionCalor/p6difusioncalormallaExecutor/FragmentoMalla.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DifusionCalor/p6difusioncalormallaExecutor/Malla.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DifusionCalor/p6difusioncalormallaExecutor/MiPanel$CalculadorFragmentoImagen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DifusionCalor/p6difusioncalormallaExecutor/MiPanel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DifusionCalor/p6difusioncalormallaExecutor/Principal$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DifusionCalor/p6difusioncalormallaExecutor/Principal.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DifusionCalor/p6difusioncalormallaExecutor/PuntoCalor.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CalculoCaminoMasCorto/out/production/CalculoCaminoMasCorto/p4calculocaminomascortohilosCompletionService/BuscadorCaminoMasCorto.class" afterPath="$PROJECT_DIR$/../CalculoCaminoMasCorto/out/production/CalculoCaminoMasCorto/p4calculocaminomascortohilosCompletionService/BuscadorCaminoMasCorto.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CalculoCaminoMasCorto/out/production/CalculoCaminoMasCorto/p4calculocaminomascortohilosCompletionService/Espacio.class" afterPath="$PROJECT_DIR$/../CalculoCaminoMasCorto/out/production/CalculoCaminoMasCorto/p4calculocaminomascortohilosCompletionService/Espacio.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CalculoCaminoMasCorto/out/production/CalculoCaminoMasCorto/p4calculocaminomascortohilosCompletionService/Principal.class" afterPath="$PROJECT_DIR$/../CalculoCaminoMasCorto/out/production/CalculoCaminoMasCorto/p4calculocaminomascortohilosCompletionService/Principal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DifusionCalor/p6difusioncalomallaCompletionservice/DifusorCalor.class" afterPath="$PROJECT_DIR$/out/production/DifusionCalor/p6difusioncalomallaCompletionservice/DifusorCalor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MEMORIA DE PROGRAMACIÓN CONCURRENTE Y DISTRIBUIDA.docx" afterPath="$PROJECT_DIR$/../MEMORIA DE PROGRAMACIÓN CONCURRENTE Y DISTRIBUIDA.docx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CalculoCaminoMasCorto/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../CalculoCaminoMasCorto/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CalculoCaminoMasCorto/src/p4calculocaminomascortohilosCompletionService/BuscadorCaminoMasCorto.java" afterPath="$PROJECT_DIR$/../CalculoCaminoMasCorto/src/p4calculocaminomascortohilosCompletionService/BuscadorCaminoMasCorto.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CalculoCaminoMasCorto/src/p4calculocaminomascortohilosCompletionService/Espacio.java" afterPath="$PROJECT_DIR$/../CalculoCaminoMasCorto/src/p4calculocaminomascortohilosCompletionService/Espacio.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CalculoCaminoMasCorto/src/p4calculocaminomascortohilosCompletionService/Principal.java" afterPath="$PROJECT_DIR$/../CalculoCaminoMasCorto/src/p4calculocaminomascortohilosCompletionService/Principal.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/p6difusioncalormallaExecutor/Borrar.java" afterPath="$PROJECT_DIR$/src/p6difusioncalormallaCompletionService_Ander/Borrar.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/p6difusioncalormallaExecutor/DifusorCalor.java" afterPath="$PROJECT_DIR$/src/p6difusioncalormallaCompletionService_Ander/DifusorCalor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/p6difusioncalormallaExecutor/FragmentoImagen.java" afterPath="$PROJECT_DIR$/src/p6difusioncalormallaCompletionService_Ander/FragmentoImagen.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/p6difusioncalormallaExecutor/FragmentoMalla.java" afterPath="$PROJECT_DIR$/src/p6difusioncalormallaCompletionService_Ander/FragmentoMalla.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/p6difusioncalormallaExecutor/Malla.java" afterPath="$PROJECT_DIR$/src/p6difusioncalormallaCompletionService_Ander/Malla.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/p6difusioncalormallaExecutor/MiPanel.java" afterPath="$PROJECT_DIR$/src/p6difusioncalormallaCompletionService_Ander/MiPanel.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/p6difusioncalormallaExecutor/Principal.java" afterPath="$PROJECT_DIR$/src/p6difusioncalormallaCompletionService_Ander/Principal.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/p6difusioncalormallaExecutor/PuntoCalor.java" afterPath="$PROJECT_DIR$/src/p6difusioncalormallaCompletionService_Ander/PuntoCalor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/p6difusioncalomallaCompletionservice/DifusorCalor.java" afterPath="$PROJECT_DIR$/src/p6difusioncalomallaCompletionservice/DifusorCalor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/p6difusioncalomallaCompletionservice/Principal.java" afterPath="$PROJECT_DIR$/src/p6difusioncalomallaCompletionservice/Principal.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,8 +25,8 @@
       <file leaf-file-name="Principal.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/p6difusioncalomallaCompletionservice/Principal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="119">
+              <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -65,14 +35,10 @@
       <file leaf-file-name="DifusorCalor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/p6difusioncalomallaCompletionservice/DifusorCalor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="46" />
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3284#3285#0" expanded="true" />
-                <element signature="e#3315#3316#0" expanded="true" />
-                <element signature="e#3373#3374#0" expanded="true" />
-                <element signature="e#3413#3414#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,6 +121,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -202,8 +170,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -676,11 +642,12 @@
       <workItem from="1489560365742" duration="41000" />
       <workItem from="1489567916048" duration="7025000" />
       <workItem from="1489659200189" duration="5885000" />
+      <workItem from="1489677867085" duration="6293000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26901000" />
+    <option name="totallyTimeSpent" value="33194000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -695,8 +662,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26182964" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23501578" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26340693" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -707,8 +674,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -732,6 +699,24 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/p6difusioncalomallaCompletionservice/Principal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p6difusioncalomallaCompletionservice/DifusorCalor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/p6difusioncalormallaCompletionService_Ander/Principal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -800,7 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -816,7 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -886,9 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -896,7 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -904,7 +883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -919,7 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -927,7 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1002,29 +978,25 @@
         <state relative-caret-position="306">
           <caret line="18" column="108" lean-forward="false" selection-start-line="18" selection-start-column="108" selection-end-line="18" selection-end-column="108" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/p6difusioncalomallaCompletionservice/DifusorCalor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="46" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3284#3285#0" expanded="true" />
-            <element signature="e#3315#3316#0" expanded="true" />
-            <element signature="e#3373#3374#0" expanded="true" />
-            <element signature="e#3413#3414#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/p6difusioncalomallaCompletionservice/Principal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="119">
+          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
           <folding />
         </state>
       </provider>

@@ -9,6 +9,7 @@ import java.util.concurrent.*;
 public class DifusorCalor extends Observable {
 
     private static final int TAMAÑO_FILA = 10;
+    final public static int NUMHILOS = 6;
 
     List<Malla> secuencia;
     double coeficienteDifusionX;
@@ -27,7 +28,7 @@ public class DifusorCalor extends Observable {
         for (PuntoCalor punto : this.focosCalor) {
             mallaInicial.setValor(punto.getX(), punto.getY(), punto.getTemperatura());
         }
-        executor = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
+        executor = Executors.newFixedThreadPool(NUMHILOS);
         completionService = new ExecutorCompletionService<>(executor);
         secuencia.add(mallaInicial);
     }
@@ -106,7 +107,6 @@ public class DifusorCalor extends Observable {
     public void setExecutor(ExecutorService executor) {
         this.executor = executor;
     }
-
 
 
 }

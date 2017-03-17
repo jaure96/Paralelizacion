@@ -13,8 +13,8 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 public class Principal extends JFrame implements ActionListener {
-	final int DIMENSIONX = 150;
-	final int DIMENSIONY = 150;
+	final int DIMENSIONX = 50;
+	final int DIMENSIONY = 50;
 	final double TEMPERATURAINICIAL = 10.0;
 	final double TEMPERATURAFOCOCALOR = 2000.0;
 	final double coeficienteDifusionCalorX = 0.2;
